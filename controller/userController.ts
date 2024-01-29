@@ -20,7 +20,7 @@ export const createUser = async (req: Request, res: Response) => {
   } catch (error) {
     log(error);
     return res.status(404).json({
-      msg: "Error loggin user",
+      msg: "Error creating user",
       status: 404,
     });
   }

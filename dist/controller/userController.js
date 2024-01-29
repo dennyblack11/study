@@ -31,7 +31,7 @@ const createUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () 
     catch (error) {
         (0, console_1.log)(error);
         return res.status(404).json({
-            msg: "Error loggin user",
+            msg: "Error creating user",
             status: 404,
         });
     }
